@@ -74,9 +74,9 @@ input, select, textarea {
 
 img {
 	display: block;
-	margin: 0 auto;
-	max-width: 100%;
-	width: 80%;
+  	margin: 0 auto;
+  	max-width: 100%;
+  	width: 80%;
   }
 
 .video-responsive {
@@ -3785,6 +3785,20 @@ img {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+	}
+	figure {
+		
+		margin: 0;
+		display: inline-block;
+		position: relative;
+		
+	}
+
+	#main1 {
+		background-color: #ffffff;
+		margin: 0 auto;
+		max-width: 72rem;
+		
 	}
 
 		#main > * {
